@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mubles ecologicos</title>
+    <link rel="stylesheet" href="styles.css">
+ 
+<script>
+    
+    function confirmarSalida() {
+        const confirmacion = confirm("Estás saliendo de la página principal. ¿Deseas continuar?");
+        if (confirmacion) {
+            window.location.href = "https://maps.app.goo.gl/wdvgVgwWN9ECUGmJ9";
+        }
+    }
+    function confirmarSalida2() {
+        const confirmacion = confirm("Estás saliendo de la página principal. ¿Deseas continuar?");
+        if (confirmacion) {
+            window.location.href = "informe.html";
+        }
+    }
+    function confirmarSalida3() {
+        const confirmacion = confirm("Estás saliendo de la página principal. ¿Deseas continuar?");
+        if (confirmacion) {
+            window.location.href = "imagenes/cronograma.png";
+        }
+    }
+</script>
+</head>  
+<body>
+    <img class="portada" src="imagenes/portada.png" alt="">
+    <table><tr><td><br><br></td></tr></table>
+    <h1>Objetivo</h1>
+                <h2> El objetivo principal de este proyecto es diseñar y fabricar muebles utilizando materiales ecológicos para beneficiar a una escuela con recursos limitados. A través del uso de materiales sostenibles y reciclados, buscamos no solo mejorar el entorno de aprendizaje de los estudiantes, proporcionando mobiliario funcional y duradero, sino también fomentar una mayor conciencia ambiental en la comunidad escolar y sus alrededores.
+
+                    El proyecto contará con la participación activa de voluntarios, quienes colaborarán en el diseño, construcción y acabado de los muebles. Esta dinámica promueve valores como el trabajo en equipo, la responsabilidad social y la creatividad. Paralelamente, se realizarán talleres educativos enfocados en la importancia de la sostenibilidad, el reciclaje y el impacto positivo de las acciones comunitarias sobre el medio ambiente. 
+                    
+                    Estos talleres estarán dirigidos tanto a estudiantes como a docentes, integrando principios de educación ambiental en el currículo escolar. De este modo, se busca empoderar a los participantes para que adopten prácticas más sostenibles en su vida cotidiana y contribuyan al cuidado del entorno, generando un impacto duradero en la comunidad educativa y en el medio ambiente. 
+                </h2>
+    <table>
+        <tr><td><br><br></td></tr>
+        <tr>
+            <td><img src="imagenes/ubi.jpg" alt=""></td>
+            <td>
+                <h1>UBICACIÓN</h1>
+                <h2>
+                    La escuela se encuentra ubicada en el mapa; al hacer clic en el botón que se muestra, podrás ver su ubicación exacta. Se trata de una escuela de educación inicial, a la que asisten un gran número de niños y niñas de la comunidad. Nuestro objetivo es mejorar el entorno educativo mediante la creación de muebles elaborados con materiales ecológicos, proporcionando así un espacio más acogedor y funcional para todos los estudiantes.
+                    <br><br>
+                    <center>
+                     <button class="button" onclick="confirmarSalida()">
+                        <span>Ver Mas -></span>
+                     </button>
+                    </center>
+                </h2>
+            </td>
+        </tr>
+        <tr><td><br><br></td></tr>
+        <tr>
+            <td>
+                <img src="imagenes/inf.jpg" alt="">
+            </td>
+            <td>
+                <h1>INFORME BASICO</h1>
+                <h2>
+                    En el siguiente enlace podrán encontrar la información básica del proyecto, donde podrán acceder al programa, los materiales utilizados y el proceso de construcción. Este recurso está diseñado para brindar una visión clara y detallada de nuestras actividades y objetivos. ¡Los invitamos a explorar y conocer más sobre nuestra iniciativa! <br><br>
+                    <center>
+                        <button class="button" onclick="confirmarSalida2()">
+                           <span>Ver Mas -></span>
+                        </button>
+                    </center>
+                </h2>
+            </td>
+        </tr>
+        <tr><td><br><br></td></tr>
+        <tr>
+            <td>
+                <img src="imagenes/cro.jpg" alt="">
+            </td>
+            <td>
+                <h1>CRONOGRAMA</h1>
+                <h2>
+                    En el siguiente enlace podrás visualizar el cronograma del proyecto, que detalla las actividades y tiempos asignados a cada equipo. ¡Te invitamos a revisarlo! <br><br>
+                    <center>
+                        <button class="button" onclick="confirmarSalida3()">
+                           <span>Ver Mas -></span>
+                        </button>
+                    </center>
+                </h2>
+            </td>
+        </tr>
+    </table>
+    <div class="cinta-contenedor">
+        <div class="cinta-texto">
+            <span>¡Bienvenido a nuestra página! - ¡Disfruta de la experiencia! - ¡Gracias por visitarnos! - TECNOLOGICO DE ESTUDIOS SUPERIORES SAN FELIPE DEL PROGRESO - *GRUPO 102* - FUNDAMENTOS DE PROGRAMACIÓN</span>
+        </div>
+    </div>
+</body>
+</html>
